@@ -26,7 +26,6 @@ Publish the website in the given URL.
 
 ## PROGRAM:
 ```
-```
 gallery.html
 
 <html>
@@ -57,7 +56,7 @@ gallery.html
     </body>
 
 </html>
-```
+
 gallery.css
 
 body
@@ -131,8 +130,7 @@ button
     padding: 3px;
     margin-bottom: 0px;
 }
-```
-```
+
 gallery.js
 
 var img = [
@@ -162,7 +160,6 @@ function prev()
     document.getElementById("about").innerHTML= img[index].about;
 }
 
-```
 ```
 ## OUTPUT:
 ![alt text](g1.png)
