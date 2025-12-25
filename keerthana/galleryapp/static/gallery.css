@@ -1,0 +1,77 @@
+body
+{
+    background: url('bg.png')no-repeat bottom / cover;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(77, 77, 83);
+    width: fit-content;
+    padding:20px;
+    margin: 70px auto; 
+    flex-direction: column;
+    border-radius: 10px;
+    border-right:#918fa1 solid 7px;
+    border-bottom:#bdbcc3 solid 7px;
+}
+.image-box img
+{
+    width:450px;
+    height:330px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: outset rgb(137, 129, 129) 5px;
+}
+.image-box, .about
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(24, 22, 24) 5px;
+    
+}
+.buttons
+{
+    display: flex;
+    gap: 10px;             
+    margin-top: 15px;
+    background-color: #6c686c; 
+    padding: 8px;
+    border-radius: 8px;
+   
+}
+button
+{
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #a69fa7;
+    color: rgb(18, 15, 15);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    border: outset rgb(84, 72, 72) 5px;
+}
+
+.footer p
+{
+    position:fixed;
+    background-color: rgb(72, 69, 72);
+    left:0;
+    bottom:0;
+    width:100%;
+    color:rgb(8, 8, 8);
+    text-align: center;
+    font-size: 18px;
+    padding: 3px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
