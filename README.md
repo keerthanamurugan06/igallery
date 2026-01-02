@@ -146,7 +146,7 @@ function next()
 {
     index++;
     if(index >= img.length)
-        index = 0;
+        index = 0;;
     document.getElementById("image").src = img[index].image;
     document.getElementById("about").innerHTML = img[index].about;
 }
